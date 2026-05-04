@@ -19,6 +19,12 @@ public class Main {
             f.calcularBonus();
         }
 
-    }
+        Impressora impressora = new Impressora();
 
+        impressora.imprimir("Java e bom.");
+        impressora.imprimir(4.1);
+
+        impressora.imprimir(4);
+        impressora.imprimir("Java e bom.", 4);
+    }
 }
